@@ -1,5 +1,5 @@
-#!/usr/bin/python3
-""" testing Place """
+#!/usr/bin/env python3
+""" Unit test for Place """
 import unittest
 import pep8
 from models.place import Place

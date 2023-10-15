@@ -1,5 +1,5 @@
-#!/usr/bin/python3
-""" testing State """
+#!/usr/bin/env python3
+""" unit test for State """
 import unittest
 import pep8
 from models.state import State

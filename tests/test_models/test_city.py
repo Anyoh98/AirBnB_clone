@@ -1,5 +1,5 @@
-#!/usr/bin/python3
-""" testing city """
+#!/usr/bin/env python3
+""" Unittest for city """
 import unittest
 import pep8
 from models.city import City

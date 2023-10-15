@@ -1,5 +1,5 @@
-#!/usr/bin/python3
-""" testing Amenity """
+#!/usr/bin/env python3
+""" Unitest for Amenity """
 import unittest
 import pep8
 from models.amenity import Amenity

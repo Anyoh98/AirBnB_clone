@@ -1,5 +1,5 @@
-#!/usr/bin/python3
-""" testing Review """
+#!/usr/bin/env python3
+""" Unite test for Review """
 import unittest
 import pep8
 from models.review import Review

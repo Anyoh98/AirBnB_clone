@@ -1,5 +1,5 @@
-#!/usr/bin/python3
-""" testing User """
+#!/usr/bin/env python3
+""" Unit test for User """
 import unittest
 import pep8
 from models.user import User
