@@ -107,8 +107,6 @@ class HBNBCommand(cmd.Cmd):
 
     def do_update(self, arg):
         argument = shlex.split(arg)
-        if len(argument) != 4:
-            return
         if len(argument) < 1:
             print("** class name missing **")
             return
