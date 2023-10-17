@@ -37,7 +37,7 @@ class HBNBCommand(cmd.Cmd):
 
     def do_create(self, arg):
         if not arg:
-            print(" ** class name missing **")
+            print("** class name missing **")
             return
         class_name = arg.split()[0]
         if class_name in classes.keys():
