@@ -126,12 +126,10 @@ class HBNBCommand(cmd.Cmd):
             key = "{}.{}".format(argument[0], argument[1])
             if key in storage.all().keys():
                 obj = storage.all()[key]
-                attr_name = argument[2]
-                attr_value = argument[3]
-                if hasattr(obj, attr_name):
-                    attr_type = type(getattr(obj, attr_name))
-                    attr_value = attr_type(attr_value)
-                    setattr(obj, attr_name, attr_value)
+                if hasattr(obj, argument[2]):
+                    attr_type = type(getattr(obj, argument[2]))
+                    attr_value = attr_type(argument[3])
+                    setattr(obj, argument[2], argument[3])
                     obj.save()
                 else:
                     print("** no instance found **")
