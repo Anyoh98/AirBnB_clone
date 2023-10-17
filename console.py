@@ -129,6 +129,7 @@ class HBNBCommand(cmd.Cmd):
                 if hasattr(obj, argument[2]):
                     attr_type = type(getattr(obj, argument[2]))
                     attr_value = attr_type(argument[3])
+                    setattr(obj, argument[2], argument[3])
                     obj.save()
                 else:
                     setattr(obj, argument[2], argument[3])
