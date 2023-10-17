@@ -133,6 +133,8 @@ class HBNBCommand(cmd.Cmd):
                     attr_value = attr_type(attr_value)
                     setattr(obj, attr_name, attr_value)
                     obj.save()
+                else:
+                    print("** no instance found **")
             else:
                 print("** no instance found **")
                 return
