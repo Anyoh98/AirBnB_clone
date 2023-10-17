@@ -20,7 +20,7 @@ classes = {'BaseModel': BaseModel}
 
 class HBNBCommand(cmd.Cmd):
     """ This is the class for the CLI """
-    prompt = " (hbnb) "
+    prompt = "(hbnb) "
 
     def do_quit(self, arg):
         """ Command that exits the program """
