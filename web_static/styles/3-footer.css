@@ -1,0 +1,13 @@
+footer {
+  align-items: center;
+  background-color: white;
+  height: 60px;
+  width: 100%;
+  bottom: 0;
+  border-top: 1px solid #cccccc;
+  position: absolute;
+}
+footer p {
+  justify-content: center;
+  display: flex;
+}
